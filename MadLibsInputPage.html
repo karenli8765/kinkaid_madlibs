@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MadLibs Input Page</title>
+<meta name="author" content="Karen Li" >
+<style type="text/css">
+	p{
+		text-align: center;
+	}
+	h1{
+		text-align: center;
+	}
+	
+</style>
+</head>
+<body style="background-color: darkmagenta; color: white; text-align: center;">
+	<h1>MADLIBS</h1>
+	
+	<p><b>Fill out form below and submit for a surprise!</b></p>
+	
+	<!--All fillin the blanks-->
+	<p>Fill in the blank:</p>
+	<form method="get" action="MadLibsResponsePage.php" style="">
+	<br>
+	<span style="color: white;">
+	noun<input type="text" name="noun1"><br>
+	adjective<input type="text" name="adj1"><br>
+	adverb<input type="text" name="adverb1"><br>
+	noun<input type="text" name="noun2"><br>
+	plural noun<input type="text" name="pluralnoun1"><br>
+	adjective<input type="text" name="adj2"><br>
+	past tense verb<input type="text" name="pastverb1"><br>
+	plural noun<input type="text" name="pluralnoun2"><br>
+	
+	
+	adjective<input type="text" name="adj3"><br>
+	noun<input type="text" name="noun3"><br>
+	adjective<input type="text" name="adj4"><br>
+	place<input type="text" name="place1"><br>
+	verb<input type="text" name="verb3"><br>
+	adjective<input type="text" name="adj5"><br>
+	</span>
+	
+	
+	<!--All dropdown options-->
+	<div>---</div>
+	<legend style="color: white;">Fill in </legend>
+		<p>Favorite Color</p>
+		<select name="favecolor">
+			<option value="orange">Orange</option>
+			<option value="black">Black</option>
+			<option value="blue">Blue</option>
+			<option value="purple">Purple</option>
+		</select>
+		<p>Plural Noun</p>
+		<select name="pluralnoun3">
+			<p style="color: white;">Noun</p><option value="dog">Dog</option>
+			<option value="Cats">Cat</option>	
+			<option value="Walruses">Walrus</option>
+			<option value="Koalas">Koalas</option>
+			<option value="Monkeys">Monkeys</option>
+	</select>
+		<p>verb</p>
+		<select name="verb1">
+			<option value="act">Act</option>
+			<option value="run">Run</option>
+			<option value="pinch">Pinch</option>
+			<option value="stumble">Stumble</option>
+		</select>
+		<p>verb</p>
+	<select name="verb2">
+			<option value="follow">Follow</option>
+			<option value="scream">Scream</option>
+			<option value="write">Write</option>
+			<option value="trip">Trip</option>
+		</select>
+
+
+	
+	<!--All checkboxs-->
+	<div>---</div>
+	<legend>Did you tell the truth?</legend>
+	<input type="checkbox" name="honesty" />
+	
+	
+
+	&nbsp;
+	<input type="submit" value="Get your MadLib!!" />
+
+</form>
+</body>
+</html>
